@@ -1,0 +1,16 @@
+<VRTDataset rasterXSize="441" rasterYSize="283">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["Adindan / UTM zone 37N",GEOGCS["Adindan",DATUM["Adindan",SPHEROID["Clarke 1880 (RGS)",6378249.145,293.465,AUTHORITY["EPSG","7012"]],AUTHORITY["EPSG","6201"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4201"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",39],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","20137"]]</SRS>
+  <GeoTransform>  2.6266383714311023e+05,  3.0000000000000000e+01,  0.0000000000000000e+00,  3.7977507076151897e+06,  0.0000000000000000e+00, -3.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <NoDataValue>-32767</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">DEMsubset.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="441" RasterYSize="283" DataType="Int16" BlockXSize="441" BlockYSize="9" />
+      <SrcRect xOff="0" yOff="0" xSize="441" ySize="283" />
+      <DstRect xOff="0" yOff="0" xSize="441" ySize="283" />
+      <NODATA>-32767</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
